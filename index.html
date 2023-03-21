@@ -1,26 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Calculator App</title>
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Calculator app</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-
-
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+        <!-- Styles -->
+        <link rel="stylesheet" href="assets/css/base.css">
+        <link rel="stylesheet" href="assets/css/style.css" />
+    </head>
+    <body>
+        <div class="calc-container">
+            <div class="calc-header-container">
+                <h1>calc</h1>
+                <!-- TODO: Insert buttons for themes -->
+                <div>
+                    <span>THEME</span>
+                </div>
+            </div>
+            <div class="calc-display-container">
+                <textarea name="display" id="calc-display" cols="30" rows="1" readonly>1234</textarea>
+            </div>
+            <div class="calc-keypad-container">
+                <button class="btn btn-white">7</button>
+                <button class="btn btn-white">8</button>
+                <button class="btn btn-white">9</button>
+                <button class="btn btn-blue">DEL</button>
+                <button class="btn btn-white">4</button>
+                <button class="btn btn-white">5</button>
+                <button class="btn btn-white">6</button>
+                <button class="btn btn-white">+</button>
+                <button class="btn btn-white">1</button>
+                <button class="btn btn-white">2</button>
+                <button class="btn btn-white">3</button>
+                <button class="btn btn-white">-</button>
+                <button class="btn btn-white">.</button>
+                <button class="btn btn-white">0</button>
+                <button class="btn btn-white">/</button>
+                <button class="btn btn-white">x</button>
+                <button class="btn btn-blue">RESET</button>
+                <button class="btn btn-red">=</button>
+            </div>
+        </div>
+    </body>
 </html>

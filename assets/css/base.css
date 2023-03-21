@@ -1,0 +1,56 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@700&display=swap');
+
+/* Variables */
+:root {
+    --font-family: 'Outfit', sans-serif;
+    --font-size: 32px;
+    --font-weight: 700;
+
+    /* Theme 1 */
+    --color-t1-main-background: hsl(222, 26%, 31%);
+    --color-t1-keypad-background: hsl(223, 31%, 20%);
+    --color-t1-display-background: hsl(224, 36%, 15%);
+
+    --color-t1-key-alt1-background: hsl(30, 25%, 89%);
+    --color-t1-key-alt1-shadow: hsl(28, 16%, 65%);
+    --color-t1-key-alt2-background: hsl(225, 21%, 49%);
+    --color-t1-key-alt2-shadow: hsl(224, 28%, 35%);
+    --color-t1-key-alt3-background: hsl(6, 63%, 50%);
+    --color-t1-key-alt3-shadow: hsl(6, 70%, 34%);
+
+    --color-t1-text-gray: hsl(221, 14%, 31%);
+    --color-t1-text-white: hsl(0, 0%, 100%);
+
+    /* Theme 2 */
+    --color-t2-main-background: hsl(0, 0%, 90%);
+    --color-t2-keypad-background: hsl(0, 5%, 81%);
+    --color-t2-display-background: hsl(0, 0%, 93%);
+
+    --color-t2-key-alt1-background: hsl(45, 7%, 89%);
+    --color-t2-key-alt1-shadow: hsl(35, 11%, 61%);
+    --color-t2-key-alt2-background: hsl(185, 42%, 37%);
+    --color-t2-key-alt2-shadow: hsl(185, 58%, 25%);
+    --color-t2-key-alt3-background: hsl(25, 98%, 40%);
+    --color-t2-key-alt3-shadow: hsl(25, 99%, 27%);
+
+    --color-t2-text-gray: hsl(60, 10%, 19%);
+    --color-t2-text-white: hsl(0, 0%, 100%);
+
+    /* Theme 3 */
+    --color-t3-main-background: hsl(268, 75%, 9%);
+    --color-t3-keypad-background: hsl(268, 71%, 12%);
+    --color-t3-display-background: hsl(268, 71%, 12%);
+
+    --color-t3-key-alt1-background: hsl(268, 47%, 21%);
+    --color-t3-key-alt1-shadow: hsl(290, 70%, 36%);
+    --color-t3-key-alt2-background: hsl(281, 89%, 26%);
+    --color-t3-key-alt2-shadow: hsl(285, 91%, 52%);
+    --color-t3-key-alt3-background: hsl(176, 100%, 44%);
+    --color-t3-key-alt3-shadow: hsl(177, 92%, 70%);
+
+    --color-t3-text-yellow: hsl(52, 100%, 62%);
+    --color-t3-text-blue: hsl(198, 20%, 13%);
+    --color-t3-text-white: hsl(0, 0%, 100%);
+
+}
