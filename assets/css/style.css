@@ -1,0 +1,105 @@
+.calc-container {
+    max-width: 350px;
+    padding: 1rem;
+    border: 1px solid black;
+
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 20px;
+}
+
+/* ----- HEADER ----- */
+.calc-header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+}
+/* TODO: Add styles to theme and h1 */
+
+/* ----- DISPLAY ----- */
+.calc-display-container {
+    width: 100%;
+    /* background-color: var(--color-t1-display-background); */
+}
+.calc-display {
+    width: 100%;
+    border: none;
+    outline: none;
+    resize: none;
+    border-radius: 10px;
+    padding: 1.2rem;
+
+    text-align: end;
+    font-family: var(--font-family);
+    font-size: 2rem;
+    font-weight: 700;
+
+    background-color: var(--color-t1-display-background);
+    color: var(--color-t1-text-white);
+}
+
+/* ----- KEYPAD ----- */
+.calc-keypad-container {
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    background-color: var(--color-t1-keypad-background);
+}
+.calc-keypad-container > div {
+    display: grid;
+    column-gap: 15px;
+    row-gap: 20px;
+}
+.calc-keypad-container > div:first-child {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+.calc-keypad-container > div:last-child {
+    grid-template-columns: repeat(2, 2fr);
+}
+
+.btn {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: auto;
+    aspect-ratio: 1/1;
+
+    font-family: var(--font-family);
+    font-size: 1rem;
+    font-weight: 700;
+}
+.btn-big {
+    aspect-ratio: 2/0.9;
+}
+
+.btn-alt1 {
+    background-color: var(--color-t1-key-alt1-background);
+    box-shadow: 0 5px var(--color-t1-key-alt1-shadow);
+    color: var(--color-t1-text-gray);
+    font-size: 1.5rem;
+}.btn-alt1:active {
+    background-color: var(--color-t1-key-alt1-shadow);
+}
+.btn-alt2 {
+    background-color: var(--color-t1-key-alt2-background);
+    box-shadow: 0 5px var(--color-t1-key-alt2-shadow);
+    color: var(--color-t1-text-white);
+}.btn-alt2:active {
+    background-color: var(--color-t1-key-alt2-shadow);
+}
+.btn-alt3 {
+    background-color: var(--color-t1-key-alt3-background);
+    box-shadow: 0 5px var(--color-t1-key-alt3-shadow);
+    color: var(--color-t1-text-white);
+}.btn-alt3:active {
+    background-color: var(--color-t1-key-alt3-shadow);
+}

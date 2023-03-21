@@ -54,3 +54,25 @@
     --color-t3-text-white: hsl(0, 0%, 100%);
 
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: var(--color-t1-main-background);
+    font-family: var(--font-family);
+    font-size: var(--font-size);
+    font-weight: var(--font-weight);
+    color: var(--color-t1-text-white);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
