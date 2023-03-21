@@ -1,9 +1,9 @@
 @import url(reset.css);
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@700&display=swap");
 
 /* Variables */
 :root {
-    --font-family: 'Outfit', sans-serif;
+    --font-family: "Outfit", sans-serif;
     --font-size: 32px;
     --font-weight: 700;
 
@@ -13,10 +13,13 @@
     --color-t1-display-background: hsl(224, 36%, 15%);
 
     --color-t1-key-alt1-background: hsl(30, 25%, 89%);
+    --color-t1-key-alt1-active: hsl(0, 0%, 100%);
     --color-t1-key-alt1-shadow: hsl(28, 16%, 65%);
     --color-t1-key-alt2-background: hsl(225, 21%, 49%);
+    --color-t1-key-alt2-active: hsl(225, 54%, 76%);
     --color-t1-key-alt2-shadow: hsl(224, 28%, 35%);
     --color-t1-key-alt3-background: hsl(6, 63%, 50%);
+    --color-t1-key-alt3-active: hsl(6, 93%, 67%);
     --color-t1-key-alt3-shadow: hsl(6, 70%, 34%);
 
     --color-t1-text-gray: hsl(221, 14%, 31%);
@@ -28,10 +31,13 @@
     --color-t2-display-background: hsl(0, 0%, 93%);
 
     --color-t2-key-alt1-background: hsl(45, 7%, 89%);
+    --color-t2-key-alt1-active: hsl(0, 0%, 100%);
     --color-t2-key-alt1-shadow: hsl(35, 11%, 61%);
     --color-t2-key-alt2-background: hsl(185, 42%, 37%);
+    --color-t2-key-alt2-active: hsl(185, 41%, 56%);
     --color-t2-key-alt2-shadow: hsl(185, 58%, 25%);
     --color-t2-key-alt3-background: hsl(25, 98%, 40%);
+    --color-t2-key-alt3-active: hsl(25, 100%, 61%);
     --color-t2-key-alt3-shadow: hsl(25, 99%, 27%);
 
     --color-t2-text-gray: hsl(60, 10%, 19%);
@@ -43,16 +49,18 @@
     --color-t3-display-background: hsl(268, 71%, 12%);
 
     --color-t3-key-alt1-background: hsl(268, 47%, 21%);
+    --color-t3-key-alt1-active: hsl(268, 54%, 44%);
     --color-t3-key-alt1-shadow: hsl(290, 70%, 36%);
     --color-t3-key-alt2-background: hsl(281, 89%, 26%);
+    --color-t3-key-alt2-active: hsl(280, 56%, 44%);
     --color-t3-key-alt2-shadow: hsl(285, 91%, 52%);
     --color-t3-key-alt3-background: hsl(176, 100%, 44%);
+    --color-t3-key-alt3-active: hsl(177, 100%, 79%);
     --color-t3-key-alt3-shadow: hsl(177, 92%, 70%);
 
     --color-t3-text-yellow: hsl(52, 100%, 62%);
     --color-t3-text-blue: hsl(198, 20%, 13%);
     --color-t3-text-white: hsl(0, 0%, 100%);
-
 }
 
 * {
@@ -61,7 +69,8 @@
     box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
     height: 100%;
 }
 
@@ -71,7 +80,7 @@ body {
     font-size: var(--font-size);
     font-weight: var(--font-weight);
     color: var(--color-t1-text-white);
-    
+
     display: flex;
     justify-content: center;
     align-items: center;
