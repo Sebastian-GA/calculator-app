@@ -15,7 +15,35 @@
     align-items: center;
     padding: 0.5rem 1rem;
 }
-/* TODO: Add styles to theme and h1 */
+
+.calc-header-container h1 {
+    font-size: 1.5rem;
+}
+.calc-header-container > div {
+    display: flex;
+    align-items: flex-end;
+    gap: 20px;
+
+    font-size: 0.6rem;
+}
+.theme-selector-container {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    gap: 10px;
+}
+.theme-selector-container > div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 6px;
+
+    font-size: 0.75rem;
+}
+.theme-selector {
+    /* TODO: Add styles to theme-selector */
+}
 
 /* ----- DISPLAY ----- */
 .calc-display-container {

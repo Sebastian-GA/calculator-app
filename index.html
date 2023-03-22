@@ -12,13 +12,24 @@
         <link rel="stylesheet" href="assets/css/style.css" />
         <link rel="stylesheet" href="assets/css/theme.css" />
     </head>
-    <body class="theme2">
+    <body class="theme1">
         <div class="calc-container">
             <div class="calc-header-container">
                 <h1>calc</h1>
-                <!-- TODO: Insert buttons for themes -->
                 <div>
                     <span>THEME</span>
+                    <div class="theme-selector-container">
+                        <div>
+                            <label for="theme1">1</label>
+                            <label for="theme2">2</label>
+                            <label for="theme3">3</label>
+                        </div>
+                        <div>
+                            <input type="radio" class="theme-selector" name="theme" value="theme1" checked />
+                            <input type="radio" class="theme-selector" name="theme" value="theme2" />
+                            <input type="radio" class="theme-selector" name="theme" value="theme3" />
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="calc-display-container">
@@ -49,5 +60,6 @@
                 </div>
             </div>
         </div>
+        <script src="assets/js/theme.js"></script>
     </body>
 </html>
