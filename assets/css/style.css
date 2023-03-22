@@ -76,7 +76,7 @@
 }
 .btn:active {
     transform: translateY(5px);
-    box-shadow: none;
+    box-shadow: none !important;
 }
 .btn-big {
     padding: 20px 10px;

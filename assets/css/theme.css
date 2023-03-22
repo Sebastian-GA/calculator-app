@@ -1,0 +1,79 @@
+/* ----- Theme 2 ----- */
+.theme2 {
+    background-color: var(--color-t2-main-background);
+    color: var(--color-t2-text-gray);
+}
+
+.theme2 .calc-display {
+    background-color: var(--color-t2-display-background);
+    color: var(--color-t2-text-gray);
+}
+
+.theme2 .calc-keypad-container {
+    background-color: var(--color-t2-keypad-background);
+}
+
+.theme2 .btn-alt1 {
+    background-color: var(--color-t2-key-alt1-background);
+    box-shadow: 0 5px var(--color-t2-key-alt1-shadow);
+    color: var(--color-t2-text-gray);
+}
+.theme2 .btn-alt1:active {
+    background-color: var(--color-t2-key-alt1-active);
+}
+.theme2 .btn-alt2 {
+    background-color: var(--color-t2-key-alt2-background);
+    box-shadow: 0 5px var(--color-t2-key-alt2-shadow);
+    color: var(--color-t2-text-white);
+}
+.theme2 .btn-alt2:active {
+    background-color: var(--color-t2-key-alt2-active);
+}
+.theme2 .btn-alt3 {
+    background-color: var(--color-t2-key-alt3-background);
+    box-shadow: 0 5px var(--color-t2-key-alt3-shadow);
+    color: var(--color-t2-text-white);
+}
+.theme2 .btn-alt3:active {
+    background-color: var(--color-t2-key-alt3-active);
+}
+
+/* ----- Theme 3 ----- */
+.theme3 {
+    background-color: var(--color-t3-main-background);
+    color: var(--color-t3-text-yellow);
+}
+
+.theme3 .calc-display {
+    background-color: var(--color-t3-display-background);
+    color: var(--color-t3-text-yellow);
+}
+
+.theme3 .calc-keypad-container {
+    background-color: var(--color-t3-keypad-background);
+}
+
+.theme3 .btn-alt1 {
+    background-color: var(--color-t3-key-alt1-background);
+    box-shadow: 0 5px var(--color-t3-key-alt1-shadow);
+    color: var(--color-t3-text-yellow);
+}
+.theme3 .btn-alt1:active {
+    background-color: var(--color-t3-key-alt1-active);
+}
+.theme3 .btn-alt2 {
+    background-color: var(--color-t3-key-alt2-background);
+    box-shadow: 0 5px var(--color-t3-key-alt2-shadow);
+    color: var(--color-t3-text-white);
+}
+.theme3 .btn-alt2:active {
+    background-color: var(--color-t3-key-alt2-active);
+}
+.theme3 .btn-alt3 {
+    background-color: var(--color-t3-key-alt3-background);
+    box-shadow: 0 5px var(--color-t3-key-alt3-shadow);
+    color: var(--color-t3-text-blue);
+}
+.theme3 .btn-alt3:active {
+    background-color: var(--color-t3-key-alt3-active);
+}
