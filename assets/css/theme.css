@@ -4,6 +4,13 @@
     color: var(--color-t2-text-gray);
 }
 
+.theme2 .theme-selector-container > div:last-child {
+    background-color: var(--color-t2-keypad-background);
+}
+.theme2 .theme-selector:checked {
+    background-color: var(--color-t2-key-alt3-background);
+}
+
 .theme2 .calc-display {
     background-color: var(--color-t2-display-background);
     color: var(--color-t2-text-gray);
@@ -42,6 +49,13 @@
 .theme3 {
     background-color: var(--color-t3-main-background);
     color: var(--color-t3-text-yellow);
+}
+
+.theme3 .theme-selector-container > div:last-child {
+    background-color: var(--color-t3-keypad-background);
+}
+.theme3 .theme-selector:checked {
+    background-color: var(--color-t3-key-alt3-background);
 }
 
 .theme3 .calc-display {
