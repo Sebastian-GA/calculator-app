@@ -57,6 +57,9 @@ export class Calculator {
                 this.memory /= this.number;
                 break;
             default:
+                if (this.number === 0) {
+                    break;
+                }
                 this.memory = this.number;
                 break;
         }
