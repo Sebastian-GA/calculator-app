@@ -1,12 +1,12 @@
 export class Calculator {
     constructor() {
         this.memory = 0;
-        this.number = 0; // number currently being entered
+        this.number = "0"; // number currently being entered
         this.operation = null;
     }
 
     appendDigit(digit) {
-        if (this.number === 0) {
+        if (this.number == 0) {
             this.number = digit;
         } else {
             this.number = this.number * 10 + digit;
@@ -38,6 +38,11 @@ export class Calculator {
             // if there was an error, clear the memory
             this.memory = 0;
         }
+        if (this.number === "0") {
+            // if there is no number, do nothing
+            this.operation = null;
+            return;
+        }
 
         switch (this.operation) {
             case "add":
@@ -57,24 +62,25 @@ export class Calculator {
                 this.memory /= this.number;
                 break;
             default:
-                if (this.number === 0) {
+                if (this.number === "0") {
                     break;
                 }
                 this.memory = this.number;
                 break;
         }
-        this.number = 0;
+        this.number = "0";
         this.operation = null;
     }
 
     clear() {
         this.memory = 0;
-        this.number = 0;
+        this.number = "0";
         this.operation = null;
     }
 
     getDisplay() {
-        if (this.number === 0) {
+        console.log(this.memory, this.number, this.operation);
+        if (this.number === "0") {
             return this.memory;
         }
         return this.number;
@@ -87,7 +93,7 @@ export class Calculator {
         this.number = Math.floor(this.number / 10);
     }
 
-    dot() {
+    appendDecimal() {
         // TODO: implement
         return;
     }

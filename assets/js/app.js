@@ -32,6 +32,15 @@ operators.forEach((button) => {
             case "=":
                 calculator.equals();
                 break;
+            case "AC":
+                calculator.clear();
+                break;
+            case "DEL":
+                calculator.delete();
+                break;
+            case ".":
+                calculator.appendDecimal();
+                break;
         }
         display.textContent = calculator.getDisplay();
     });
