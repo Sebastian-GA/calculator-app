@@ -16,8 +16,8 @@ Users should be able to:
 ![Desktop theme1](https://user-images.githubusercontent.com/62948474/227753931-57e138d1-57e3-4329-9771-cf978eb332e8.png)
 
 <div style="display: flex; justify-content: space-between">
-    <img src="https://user-images.githubusercontent.com/62948474/227753929-2351a9d6-4b92-43ba-8d07-0b9506ea5362.png" alt="Mobile theme2" width="49%"/>
-    <img src="https://user-images.githubusercontent.com/62948474/227753927-8a3e5ce9-c7e7-40ea-88f3-927dfa753075.png" alt="Mobile theme3" width="49%"/>
+    <img src="https://user-images.githubusercontent.com/62948474/227753927-8a3e5ce9-c7e7-40ea-88f3-927dfa753075.png" alt="Mobile theme2" width="49%"/>
+    <img src="https://user-images.githubusercontent.com/62948474/227753929-2351a9d6-4b92-43ba-8d07-0b9506ea5362.png" alt="Mobile theme3" width="49%"/>
 </div>
 
 ## Built with
@@ -26,5 +26,6 @@ Users should be able to:
 -   CSS custom properties
 -   Flexbox
 -   CSS Grid
+-   Light and dark mode
 -   Object-oriented JavaScript
 -   Mobile-first workflow
